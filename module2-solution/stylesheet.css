@@ -18,7 +18,15 @@ p {
 
 }
 #p1{
-  background-color:blue;
+  background-color: blue;
+ position: relative;
+ float: right;
+   width: 20%;
+  height: 30px;
+  text-align: center;
+ }
+#p2{
+  background-color: blue;
  position: relative;
  float: right;
    width: 20%;
@@ -26,11 +34,18 @@ p {
   text-align: center;
  }
 
-
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
 }
+#p3{
+  background-color: blue;
+ position: relative;
+ float: right;
+   width: 20%;
+  height: 30px;
+  text-align: center;
+ }
 
 /********** Large devices only at least 1200px wide usually **********/
 @media (min-width: 992px) {
