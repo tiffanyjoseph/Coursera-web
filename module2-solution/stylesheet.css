@@ -10,7 +10,7 @@ h1 {
 p {
   border: 1px solid black;
   background-color: #A52A2A;
-  width: 100%; /*** so that it doesn't take up all of the grid, we have some padding on the edges ***/
+  width: 95%; /*** so that it doesn't take up all of the grid, we have some padding on the edges ***/
   height: 150px;
 
   font-family: Helvetica;
@@ -22,16 +22,18 @@ p {
  position: relative;
  float: right;
    width: 20%;
-  height: 30px;
+  height: 10%;
   text-align: center;
+  right: 5%;
  }
 #p2{
   background-color: blue;
  position: relative;
  float: right;
-   width: 20%;
-  height: 30px;
+    width: 20%;
+  height: 10%;
   text-align: center;
+  right: 5%;
  }
 
 /* Simple Responsive Framework. */
@@ -42,9 +44,10 @@ p {
   background-color: blue;
  position: relative;
  float: right;
-   width: 20%;
-  height: 30px;
+  width: 20%;
+  height: 10%;
   text-align: center;
+  right: 5%;
  }
 
 /********** Large devices only at least 1200px wide usually **********/
@@ -98,9 +101,7 @@ p {
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
-    border: 0px solid green;
-     top: 0px;
-    right: 0px;
+    right: 15px;
   }
   .col-md-1 {
     width: 8.33%;
